@@ -32,7 +32,7 @@ public class ProductService {
                 product.setBrand(obj.getBrand());
                 product.setCategory(obj.getCategory());
                 saveList.add(product);
-                System.out.println("hi");
+
             }
         }
             productRepo.saveAll(saveList);
