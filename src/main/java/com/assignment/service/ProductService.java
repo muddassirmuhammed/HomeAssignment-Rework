@@ -32,6 +32,8 @@ public class ProductService {
                 product.setBrand(obj.getBrand());
                 product.setCategory(obj.getCategory());
                 saveList.add(product);
+                saveList.add(product);
+
 
             }
         }
